@@ -9,9 +9,9 @@ source:
   sha256: 780bd1557c9185c15d9f4221ea7f905cb20b93f7151ca8ccaed9714dce4b327a
 
 build:
-  number: 1003
+  number: 1004
   skip: true  # [not win]
-  script: python setup.py install
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   build:
