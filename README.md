@@ -1,9 +1,9 @@
 About wincertstore
 ==================
 
-Home: https://bitbucket.org/tiran/wincertstore
+Home: https://pypi.org/project/wincertstore/
 
-Package license: PSF 2
+Package license: PSF-2.0
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/wincertstore-feedstock/blob/master/LICENSE.txt)
 
