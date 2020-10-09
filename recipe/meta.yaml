@@ -25,7 +25,7 @@ test:
 
 about:
   home: https://bitbucket.org/tiran/wincertstore
-  license: PSF 2
+  license: PSF-2.0
   license_file: LICENSE
   summary: Python module to extract CA and CRL certs from Windows' cert store (ctypes based).
 
