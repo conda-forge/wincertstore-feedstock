@@ -1,4 +1,4 @@
-{% set version = "0.2" %}
+{% set version = "0.2.1" %}
 
 {% set pip_version = "20.2.3" %}
 {% set setuptools_version = "49.6.0" %}
@@ -9,7 +9,7 @@ package:
 
 source:
   - url: https://pypi.io/packages/source/w/wincertstore/wincertstore-{{ version }}.zip
-    sha256: 780bd1557c9185c15d9f4221ea7f905cb20b93f7151ca8ccaed9714dce4b327a
+    sha256: ebd681f45f4e156493b4fa54f134b9a171d9c0a8de40ae1a0bc96c3092cb8b12
     folder: wincertstore
   # bootstrap pip and setuptools to avoid circular dependency
   # but without losing metadata
@@ -21,7 +21,7 @@ source:
     folder: setuptools_wheel
 
 build:
-  number: 1006
+  number: 0
   skip: true  # [not win]
 
 requirements:
