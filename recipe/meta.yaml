@@ -8,8 +8,8 @@ package:
   version: {{ version }}
 
 source:
-  - url: https://pypi.io/packages/py2.py3/w/wincertstore/wincertstore-{{ version }}-py2.py3-none-any.whl
-    sha256: cfedf0047855c3fd2668a4750e951329f68ecf6118b5814026c18f23f127dd93
+  - url: https://pypi.io/packages/source/w/wincertstore/wincertstore-{{ version }}.zip
+    sha256: ebd681f45f4e156493b4fa54f134b9a171d9c0a8de40ae1a0bc96c3092cb8b12
     folder: wincertstore
   # bootstrap pip and setuptools to avoid circular dependency
   # but without losing metadata
