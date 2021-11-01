@@ -21,7 +21,7 @@ source:
     folder: setuptools_wheel
 
 build:
-  number: 1006
+  number: 1007
   skip: true  # [not win]
 
 requirements:
