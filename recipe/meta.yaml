@@ -22,13 +22,14 @@ source:
 
 build:
   number: 1008
-  skip: true  # [not win]
+  noarch: python
 
 requirements:
   host:
     - python
   run:
     - python
+    - __win
 
 test:
   imports:
